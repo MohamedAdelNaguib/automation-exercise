@@ -43,7 +43,7 @@ jobs:
       - name: "Download coverage report"
         uses: actions/download-artifact@v3
         with:
-          name: coverage_report
+          name: Coverage-Report
       - name: "Create XML of coverage report"
         run: coverage xml
       - name: "Upload coverage XML"
