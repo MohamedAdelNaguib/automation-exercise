@@ -1,5 +1,7 @@
 name: SSE CI/CD
+
 on: push
+
 jobs:
   style_check:
     runs-on: ubuntu-latest
